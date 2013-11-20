@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+<head>
+
+    <script type="text/javascript"src="../module/Tabby.js"></script>
+    <script type="text/javascript">
+
+        window.document.addEventListener('DOMContentLoaded', function() {
+
+            var elements = window.document.querySelectorAll('*[tabindex]');
+
+            for (var index = 0, maxNodes = elements.length; index < maxNodes; index++) {
+
+                var element = elements[index];
+
+                element.addEventListener("tabEnter", function() {
+                    this.classList.add('focus');
+                }, false);
+
+                element.addEventListener("tabLeave", function() {
+                    this.classList.remove('focus');
+                }, false);
+
+            }
+
+        });
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="default.css" />
+
+</head>
+<body>
+
+    <section class="boxes">
+        <div class="box" tabindex="1">And the people in the houses</div>
+        <div class="box" tabindex="2">All went to the university</div>
+        <div class="box" tabindex="3">Where they were put in boxes</div>
+        <div class="box" tabindex="4">And they came out all the same</div>
+    </section>
+
+</body>
+</html>

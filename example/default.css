@@ -1,0 +1,16 @@
+section.boxes div.box {
+    float: left;
+    margin-right: 10px;
+    width: 275px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-color: lightgrey;
+    transition: all .45s;
+}
+
+section.boxes div.box.focus {
+    background-color: mediumpurple;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+}

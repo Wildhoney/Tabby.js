@@ -1,7 +1,7 @@
 {
   "name": "tabby-js",
   "buildName": "tabby",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Never neglect your tabs when it comes to usability again! Making tabIndex easy for custom elements to improve your UX.",
   "main": "index.js",
   "directories": {

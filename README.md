@@ -5,6 +5,11 @@ Never neglect your tabs when it comes to usability again! Making `tabindex` easy
 
 <img src="http://us.cdn3.123rf.com/168nwm/fotovampir/fotovampir1103/fotovampir110300026/9008681-tabby-cat-lying-on-white-background.jpg" />
 
+Purpose
+--------
+
+In today's JavaScript environment with all the custom elements, it's easy to forget that tabbing is an integral part of the UX. With HTML5 you can define `tabindex` on **any** property, but you need additional functionality for it to do anything useful. That's where Tabby becomes useful! By emitting two custom events when tabbing occurs, *you* can define the behaviour with ease.
+
 Getting Started
 --------
 
@@ -28,7 +33,7 @@ elements.on('tabLeave', function() {
 });
 ```
 
-Purpose
+Contributions
 --------
 
-In today's JavaScript environment with all the custom elements, it's easy to forget that tabbing is an integral part of some people's UX. With HTML5 you can define `tabindex` on **any** property, but you need additional functionality for it to do anything useful. That's where Tabby becomes useful! By emitting two custom events when tabbing occurs, *you* can define the behaviour with ease.
+I'd be over the moon for contributions for **any** of my projects &ndash; including of course Tabby! If you would like to contribute, please fork and issue a pull request and I'll happily merge it in to master.

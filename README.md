@@ -10,17 +10,19 @@ Getting Started
 
 Tabby emits two custom events for you to listen for. These can be listened to the vanilla JavaScript way (`.addEventListener('tabEnter')`) or the jQuery way (`.on('tabEnter')`) &ndash; other libraries are supported as long as they tap into the vanilla JavaScript events.
 
-**<code>tabEnter</code>**<br />
-Emitted when an element with a `tabindex` attribute has focus with the tab key.
+<h4>tabEnter</h4><br />
+Emitted when an element with a `tabindex` attribute has focus with the tab key &ndash; allowing you to highlight the element, or to open your faux-select.
 
-**<code>tabLeave</code>**<br />
-Emitted irrespective of whether the tab key was involved &ndash; allowing you to reset the element's state.
+<h4>tabLeave</h4><br />
+Emitted irrespective of whether the tab key was involved (an alias of `onblur`) &ndash; allowing you to reset the element's state.
 
 ```javascript
+// Emitted when a user tabs into the box.
 elements.on('tabEnter', function() {
     $(this).addClass('focus');
 });
 
+// Emitted each and every time (same as onblur).
 elements.on('tabLeave', function() {
     $(this).removeClass('focus');
 });

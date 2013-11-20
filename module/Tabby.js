@@ -1,5 +1,7 @@
 (function($window) {
 
+    "use strict";
+
     /**
      * @module Tabby
      * @author Adam Timberlake

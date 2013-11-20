@@ -1,0 +1,22 @@
+{
+  "name": "Tabby.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Wildhoney/Tabby.js",
+  "authors": [
+    "Adam Timberlake <adam.timberlake@gmail.com>"
+  ],
+  "description": "Never neglect your tabs when it comes to usability again! Making tabIndex easy for custom elements to improve your UX.",
+  "keywords": [
+    "\"tabindex\"",
+    "\"custom",
+    "tabindex\""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

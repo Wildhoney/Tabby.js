@@ -3,25 +3,20 @@
 <head>
 
     <script type="text/javascript"src="../module/Tabby.js"></script>
+    <script type="text/javascript"src="../bower_components/jquery/jquery.js"></script>
     <script type="text/javascript">
 
-        window.document.addEventListener('DOMContentLoaded', function() {
+        $(document).ready(function() {
 
-            var elements = window.document.querySelectorAll('*[tabindex]');
+            var elements = $('div.box');
 
-            for (var index = 0, maxNodes = elements.length; index < maxNodes; index++) {
+            elements.on('tabEnter', function() {
+                $(this).addClass('focus');
+            });
 
-                var element = elements[index];
-
-                element.addEventListener("tabEnter", function() {
-                    this.classList.add('focus');
-                }, false);
-
-                element.addEventListener("tabLeave", function() {
-                    this.classList.remove('focus');
-                }, false);
-
-            }
+            elements.on('tabLeave', function() {
+                $(this).removeClass('focus');
+            });
 
         });
 

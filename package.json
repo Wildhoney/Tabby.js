@@ -1,5 +1,5 @@
 {
-  "name": "Tabby.js",
+  "name": "tabby-js",
   "version": "0.1.0",
   "description": "Never neglect your tabs when it comes to usability again! Making tabIndex easy for custom elements to improve your UX.",
   "main": "index.js",

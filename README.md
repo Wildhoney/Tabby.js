@@ -10,6 +10,12 @@ Purpose
 
 In today's JavaScript environment with all the custom elements, it's easy to forget that tabbing is an integral part of the UX. With HTML5 you can define `tabindex` on **any** property, but you need additional functionality for it to do anything useful. That's where Tabby becomes useful! By emitting two custom events when tabbing occurs, *you* can define the behaviour with ease.
 
+<img src="https://travis-ci.org/Wildhoney/Tabby.js.png?branch=master" />
+&nbsp;
+<img src="https://badge.fury.io/js/tabby-js.png" />
+
+Install with npm: `npm install tabby-js`
+
 Getting Started
 --------
 
